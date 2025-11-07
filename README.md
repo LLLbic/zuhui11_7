@@ -1,6 +1,8 @@
 # “One Model Fits All Nodes”: Neuron Activation  Pattern Analysis-Based Attack Traffic Detection  Framework for P2P Networks
 
 ## 本文解决的问题
+解决模型在不同节点之间移植后，模型对异常流量误判率较高的问题
+
 
 ## fig2里面的token construction是干什么的？
 “Token Construction”（标记构造）是 tNeuron 框架训练阶段的第一个步骤，其主要目的是**构建用于训练 Transformer 影子模型（shadow model）的数据集 $\left\{X_T, y_T\right\}$** [1-3]。
