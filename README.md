@@ -11,12 +11,6 @@
 ## 模型结构
 <img src="Screenshot 2025-11-07 164730.png">
 
-## 各种攻击在没有tNeuron和有的情况下
-<img src="Screenshot 2025-11-07 172724.png">
-
-## 各种减小FP的模型在部署tNeuron优化对比
-<img src="Screenshot 2025-11-07 172649.png">
-
 ## fig2里面的token construction是干什么的？
 “Token Construction”（标记构造）是 tNeuron 框架训练阶段的第一个步骤，其主要目的是**构建用于训练 Transformer 影子模型（shadow model）的数据集 ${X_T, y_T}$** [1-3]。
 
@@ -104,3 +98,9 @@ tNeuron 的训练阶段的第一步是“标记构造”（Token Construction）
 **总结：**
 tNeuron 影子模型训练的输入数据（流量模式 $X_T$）来自**包含良性流量和攻击流量**的原始数据集 $X_1$ [2, 4]，但其学习的目标是**预测端口号聚类**，而不是预测流量是良性还是攻击 [5, 6]。它通过学习这些复杂的序列模式，来提取流量知识，从而提供丰富的神经元激活模式供后续的误报检测使用 [6-8]。
 
+
+## 各种攻击在没有tNeuron和有的情况下
+<img src="Screenshot 2025-11-07 172724.png">
+
+## 各种减小FP的模型在部署tNeuron优化对比
+<img src="Screenshot 2025-11-07 172649.png">
