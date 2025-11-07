@@ -6,7 +6,7 @@
 <img src="Screenshot 2025-11-07 164730.png">
 
 ## fig2里面的token construction是干什么的？
-“Token Construction”（标记构造）是 tNeuron 框架训练阶段的第一个步骤，其主要目的是**构建用于训练 Transformer 影子模型（shadow model）的数据集 $\left\{X_T, y_T\right\}$** [1-3]。
+“Token Construction”（标记构造）是 tNeuron 框架训练阶段的第一个步骤，其主要目的是**构建用于训练 Transformer 影子模型（shadow model）的数据集 ${X_T, y_T}$** [1-3]。
 
 tNeuron 设计 Token Construction 步骤是为了提取流量特征并生成可供影子模型学习的标签，从而提供用于后续神经元激活模式分析的丰富信息 [1, 4, 5]。
 
