@@ -12,7 +12,7 @@
 <img src="Screenshot 2025-11-07 164730.png">
 
 ## 各种攻击在没有tNeuron和有的情况下
-<img src="">
+<img src="Screenshot 2025-11-07 172724.png">
 
 ## 各种减小FP的模型在部署tNeuron优化对比
 <img src="Screenshot 2025-11-07 172649.png">
