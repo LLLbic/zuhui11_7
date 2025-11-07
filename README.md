@@ -15,7 +15,7 @@
 <img src="">
 
 ## 各种减小FP的模型在部署tNeuron优化对比
-<img src="">
+<img src="Screenshot 2025-11-07 172649.png">
 
 ## fig2里面的token construction是干什么的？
 “Token Construction”（标记构造）是 tNeuron 框架训练阶段的第一个步骤，其主要目的是**构建用于训练 Transformer 影子模型（shadow model）的数据集 ${X_T, y_T}$** [1-3]。
