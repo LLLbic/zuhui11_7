@@ -1,7 +1,12 @@
 # “One Model Fits All Nodes”: Neuron Activation  Pattern Analysis-Based Attack Traffic Detection  Framework for P2P Networks
 
 ## 本文解决的问题
-解决模型在不同节点之间移植后，模型对异常流量误判率较高的问题
+在已知正常样本功能范围里面，解决模型在不同网络节点之间移植后，模型对**异常流量误判率较高**的问题
+但**未涉及模型对未知样本、新型攻击流量的分类与识别**
+
+## 新颖点
+提出看模型内部神经元的特点
+
 ## 模型结构
 <img src="Screenshot 2025-11-07 164730.png">
 
